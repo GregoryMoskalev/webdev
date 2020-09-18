@@ -1,11 +1,51 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webdev</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Webdev</title>
 </head>
 <body>
-    
+  <header>
+    <nav class="navigation__nav">
+      <ul class="navigation__list grid_container">
+        <li class="navigation__item navigation__item-about"><a href="#" class="navigation__link navigation__link-about" autofocus>About</a></li>
+        <li class="navigation__item navigation__item-syllabus"><a href="#" class="navigation__link navigation__link-syllabus">Syllabus</a></li>
+        <li class="navigation__item navigation__item-logo"><img src="assets/Vector.svg" alt="logo" class="navigation__img"></li>
+        <li class="navigation__item navigation__item-projects"><a href="#" class="navigation__link navigation__link-projects">Projects</a></li>
+        <li class="navigation__item navigation__item-faq"><a href="#" class="navigation__link navigation__link-faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <h1 class="hidden">webdev</h1>
+  </header>
+  <main>
+    <section class="first_screen">
+      <div class="bg-image-wrapper">
+          <h2 class="header-2">Your life is webdev</h2>
+          <p class="first_screen-p">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+          <button class="first_screen-btn get_started-btn"><span>Get Started</span></button>
+            <ul class="socials__list">
+              <li class="socials__list-item"><a href="#" class="socials__list-link"><img src="/assets/mail_fff.svg" alt="mail logo"></a></li>
+              <li class="socials__list-item"><a href="#" class="socials__list-link"><img src="/assets/facebook_fff.svg" alt="facebook logo"></a></li>
+              <li class="socials__list-item"><a href="#" class="socials__list-link"><img src="/assets/insta_fff.svg" alt="instagram logo"></a></li>
+              <li class="socials__list-item"><a href="#" class="socials__list-link"><img src="/assets/telegram_fff.svg" alt="telegram logo"></a></li>
+            </ul>
+      </div>
+    </section>
+    <section class="second_screen">
+      <div class="grid_container">
+        <div class="second_screen__content-block">
+          <h2 class="second_screen-header">Rappresent your idea with<br>
+          a smart Design</h2>
+          <p class="second_screen-p">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <strong>implementation of build systems,</strong> and management of derived artifacts, such as the machine code of computer programs. </p>
+          <button class="get_started-btn">Get started</button>
+        </div>
+        <img class="second_screen-img" src="/assets/content-image-1.jpg" alt="
+        design development">
+      </div>
+    </section>
+  </main>
 </body>
 </html>

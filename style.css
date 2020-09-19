@@ -45,6 +45,21 @@ input {
   outline: none;
 }
 
+.blue_btn {
+  background-color: #00afdb;
+  cursor: pointer;
+  transition: all .4s;
+
+  background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #009cc2 50%);
+  background-size: 230%;
+}
+
+.blue_btn:hover {
+  background-color: #009cc2;
+
+  background-position: 100%;
+}
+
 /* #####HEADER#### */
 .hidden {
   position: absolute;
@@ -110,7 +125,9 @@ input {
   opacity: 0.8;
 }
 
-.navigation__link:focus {
+.navigation__link:focus,
+.navigation__link:hover,
+.footer__link:not(.copyright):hover {
   outline: none;
   border-bottom: 2px solid #fff;
 }
@@ -166,7 +183,7 @@ input {
 }
 
 .get_started-btn {
-  background-color: #00afdb;
+  /* background-color: #00afdb; */
   font-family: inherit;
   border: none;
   font-size: 14px;
@@ -365,7 +382,7 @@ input {
   font-family: inherit;
   margin-left: 1px;
   margin-top: 31px;
-  background: #00afdb;
+  /* background: #00afdb; */
   border: none;
   color: #ffffff;
   font-size: 14px;
@@ -428,7 +445,7 @@ input {
   height: 100%;
   width: 66px;
   border: none;
-  background-color: #00afdb;
+  /* background-color: #00afdb; */
 }
 
 .screen_5__form__btn img {
@@ -478,7 +495,7 @@ input {
 
 .screen_6__btn {
   border: none;
-  background-color: #00afdb;
+  /* background-color: #00afdb; */
   color: #fff;
   font-size: 14px;
   line-height: 16px;

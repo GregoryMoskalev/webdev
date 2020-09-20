@@ -45,9 +45,12 @@ input {
   outline: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .blue_btn {
   background-color: #00afdb;
-  cursor: pointer;
   transition: all .4s;
 
   background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #009cc2 50%);
@@ -189,28 +192,34 @@ input {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 16.41px;
+  line-height: 16px;
   color: #fff;
   text-transform: uppercase;
-  padding: 16px 47.5px 14px 47.5px;
+  padding: 16px 48px 14px 47px;
 }
 
 .socials__list {
   display: flex;
   flex-direction: row;
-  margin-top: 183px;
+  margin-top: 173px;
   justify-content: center;
   list-style: none;
 }
 
 .socials__list-item {
-  padding: 0 15px;
+  margin: 0 5px;
 }
 
 .socials__list-link {
   display: block;
   height: 100%;
   width: 100%;
+  padding: 10px;
+  transition: all .2s;
+}
+
+.socials__list-link:hover {
+  transform: scale(1.1);
 }
 
 /* ####SECOND SCREEN */
@@ -311,6 +320,13 @@ input {
   width: 15px;
   height: 25px;
   background-color: inherit;
+  transition: all .2s;
+  padding: 1px;
+}
+
+.screen_4__nav-items__btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .screen_4__nav-items__btn-left {
@@ -332,7 +348,6 @@ input {
 }
 
 .slider-items {
-  position: relative;
   display: flex;
   flex-direction: row;
   height: 244px;
@@ -363,7 +378,7 @@ input {
   grid-column: 7 / 11;
 }
 
-.screen_3__header-3 {
+.screen_3__header-2 {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -399,7 +414,7 @@ input {
   background-image: url(/assets/pexels-christina-morillo-1181675\ 1.jpg);
 }
 
-.screen_5__form__h3 {
+.screen_5__form__h2 {
   color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
@@ -439,6 +454,7 @@ input {
   color: #373737;
   font-family: inherit;
   outline: none;
+  background-color: #ffffff;
 }
 
 .screen_5__form__btn {
@@ -465,7 +481,7 @@ input {
   margin-left: 1px;
 }
 
-.screen_6__h3 {
+.screen_6__h2 {
   color: #373737;
   font-size: 24px;
   line-height: 28px;
@@ -572,4 +588,9 @@ input {
   color: #818181;
   margin-top: 74px;
   margin-left: 19px;
+  height: 20px;
+}
+
+.copyright:hover {
+  color: #9a7ac6;
 }

@@ -234,7 +234,7 @@ button {
   color: #373737;
   grid-column: 2 / 6;
   margin-top: 251px;
-  margin-left: 64px;
+  margin-left: -1px;
 }
 
 .second_screen-header {
@@ -258,7 +258,7 @@ button {
 .second_screen-img {
   grid-column: 8 / 12;
   margin-top: 76px;
-  padding-left: 64px;
+  margin-left: -1px;
 }
 
 /* #### SCREEN 4 #####*/
